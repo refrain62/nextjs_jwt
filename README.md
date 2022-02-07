@@ -4,7 +4,7 @@ https://ichi.pro/next-js-web-apurike-shon-de-no-jwt-json-web-tokens-yu-za-ninsho
 
 ## プロジェクトの作成
 ```
-yarn create next-app nextjs_jwt --typescript
+yarn create next-app nextjs_jwt
 ```
 
 ## 必要なライブラリの追加
