@@ -1,5 +1,6 @@
 # nextjs_jwt
-https://ichi.pro/next-js-web-apurike-shon-de-no-jwt-json-web-tokens-yu-za-ninsho-90016802877078 の写経
+https://ichi.pro/next-js-web-apurike-shon-de-no-jwt-json-web-tokens-yu-za-ninsho-90016802877078 の写経   
+リポジトリ：https://github.com/dyarfi/nextjs-jwt   
 
 
 ## プロジェクトの作成
@@ -10,9 +11,18 @@ yarn create next-app nextjs_jwt
 ## 必要なライブラリの追加
 ```
 yarn add next bcryptjs jsonwebtoken js-cookie
+yarn add -D prettier
+```
+
+## 環境設定
+.env.local.example から　.env.local ファイルを作成   
+JWT用のキーを設定   
+```
+JWT_KEY="secretOrKeyJWTRandom"
 ```
 
 
+## 以下プロジェクトのモック
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
